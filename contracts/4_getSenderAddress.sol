@@ -13,7 +13,7 @@ contract GetSenderAddress {
     function isAdmin() public view returns (bool){
         if(msg.sender == adminAddress) {
             return true;
-        }
+        } 
         else return false;
     }
     
@@ -22,7 +22,7 @@ contract GetSenderAddress {
         return message;
     }
     
-    function getSenderAddress() public view returns(address) {
+    function getSenderAddress() public view returns(address _add) {
         
         if(isAdmin()) {
            return msg.sender;
