@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deleteAllReports",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_carVIN",
+						"type": "string"
+					}
+				],
+				"name": "getCarfaxReport",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "_version",
+						"type": "uint32"
+					},
+					{
+						"internalType": "string",
+						"name": "_carVIN",
+						"type": "string"
+					}
+				],
+				"name": "recoverGas",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_carVIN",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_reportJSON",
+						"type": "string"
+					}
+				],
+				"name": "setCarfaxReport",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/deleteMapping.sol": "DeletableMapping"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/deleteMapping.sol": {
+			"keccak256": "0x1984977b9523a373c1ea1b701abd1914dde5dffcebc08ee578777fc15c1f63b7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5752e530851af77f3afe358bb08a2819d9d9da585bad1c61dd3c6c121b828c73",
+				"dweb:/ipfs/QmXhkhk5ergFkbSFMTqBtfCp4cJ2oBgK4NRmokjasgFT23"
+			]
+		}
+	},
+	"version": 1
+}
